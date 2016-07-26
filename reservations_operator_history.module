@@ -1,4 +1,7 @@
 <?php
+/**
+ * This hook will allow views to be loaded from the inc directory
+ */ 
 function reservations_operator_history_views_api() {
   return array(
 	       'api' => 3,
